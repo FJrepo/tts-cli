@@ -10,8 +10,8 @@ public class DependencyChecker {
         if (!isCommandAvailable("piper", "--version") && !isCommandAvailable("piper", "--help")) {
             throw new TtsException(
                     "piper is not installed or not in PATH.\n" +
-                    "Install: https://github.com/rhasspy/piper/releases\n" +
-                    "Or via pip: pip install piper-tts",
+                    "Install: pipx install piper-tts && pipx inject piper-tts pathvalidate\n" +
+                    "More info: https://github.com/OHF-Voice/piper1-gpl",
                     3);
         }
     }

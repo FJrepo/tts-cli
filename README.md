@@ -1,6 +1,6 @@
 # tts-cli
 
-CLI tool for converting text to speech using local [Piper TTS](https://github.com/rhasspy/piper). Designed as a tool AI agents can call from the command line.
+CLI tool for converting text to speech using local [Piper TTS](https://github.com/OHF-Voice/piper1-gpl). Designed as a tool AI agents can call from the command line.
 
 Built with [Quarkus](https://quarkus.io/) + [Picocli](https://picocli.info/), compiles to a native binary with ~6ms startup time.
 
